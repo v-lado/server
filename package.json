@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "module": "app/index.js",
+
+  "scripts": {
+    "dev": "bun run --watch app/index.ts"
+  },
+
+  "dependencies": {
+    "elysia": "latest"
+  },
+
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
